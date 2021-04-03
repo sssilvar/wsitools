@@ -6,7 +6,7 @@ authors = ["Santiago SILVA <16252054+sssilvar@users.noreply.github.com>"]
 license = "Apache"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.7"
 histomicstk = "^1.1.0"
 
 [tool.poetry.dev-dependencies]
