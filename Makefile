@@ -1,3 +1,4 @@
 github:
 	@cd docsrc && make html
-	@cp -a docsrc/_build/html/. ./docs
+	@ rm -rf docs/
+	@cp -r docsrc/_build/html/ ./docs
