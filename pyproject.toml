@@ -9,7 +9,6 @@ license = "Apache"
 python = "^3.7"
 histomicstk = { version = "^1.1.0", optional = true }
 
-
 [tool.poetry.extras]
 full = ['histomicstk']
 
