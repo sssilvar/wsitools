@@ -7,7 +7,11 @@ license = "Apache"
 
 [tool.poetry.dependencies]
 python = "^3.7"
-histomicstk = "^1.1.0"
+histomicstk = { version = "^1.1.0", optional = true }
+
+
+[tool.poetry.extras]
+full = ['histomicstk']
 
 [tool.poetry.dev-dependencies]
 
